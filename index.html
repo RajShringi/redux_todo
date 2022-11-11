@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux Todo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.0/redux.min.js"
+      integrity="sha512-1/8Tj23BRrWnKZXeBruk6wTnsMJbi/lJsk9bsRgVwb6j5q39n0A00gFjbCTaDo5l5XrPVv4DZXftrJExhRF/Ug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="bg-yellow-100 text-gray-700">
+    <div class="container mx-auto">
+      <div class="max-w-lg p-4 bg-gray-50 mx-auto my-4 rounded-md shadow-lg">
+        <h1 class="text-3xl text-center my-2">TODOS</h1>
+        <div>
+          <input
+            type="text"
+            placeholder="Add TODO Or Search"
+            class="border w-full block p-2 rounded-md shadow-inner bg-gray-50 outline-none"
+          />
+        </div>
+        <ul class="todos my-2"></ul>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
